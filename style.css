@@ -39,6 +39,11 @@ main {
     row-gap: 3rem;
 }
 
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
 .heading {
     grid-column: 2 / 3;
 
@@ -53,5 +58,12 @@ main {
 
 .hero {
     grid-column: 1 / -1;    /* Grid-column property determines which columns an element starts and ends at. There may be times where you are unsure of how many columns your grid will have, but you want an element to stop at the last column. To do this, you can use -1 for the end column. */
+    position: relative;
+}
+
+.hero-title {
+    text-align: center;
+    color: orangered;
+    font-size: 8rem;
 }
 
